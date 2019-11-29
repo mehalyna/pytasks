@@ -44,7 +44,7 @@ Then, the output should be:
 
 
 def three(i):
-    return {i: i * i for i in range(1, 9)}
+    return {i: i * i for i in range(1, 9)} # why only up to 9 ?
 
 
 # i = int(input())
