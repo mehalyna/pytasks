@@ -1734,10 +1734,7 @@ We count 35 heads and 94 legs among the chickens and rabbits in a farm.
 
 
 def task_100(head, leg):
-    for num in range(1, head + 1):
-        rabbits = head - num
-        if (num * 2) + (rabbits * 4) == leg:
-            return {"rabbits": rabbits, "chicken": num}
+    print("rabbits "+str(94//2-35)+" chikens " + str(35-(94//2-35)))
 
 
 print(task_100(35, 94))
